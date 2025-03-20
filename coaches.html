@@ -3,9 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coaches</title>
+    <title>Our Coaches - DoBu Martial Arts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1544717684-1243da23b545?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 40px;
+        }
+        .coach-card {
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+        .coach-card:hover {
+            transform: translateY(-10px);
+        }
+        .coach-img {
+            height: 300px;
+            object-fit: cover;
+        }
+        .badge-martial-arts {
+            background-color: #dc3545;
+        }
+        .badge-fitness {
+            background-color: #198754;
+        }
+    </style>
 </head>
 <body>
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Meet Our Expert Coaches</h1>
+            <p class="lead my-4">Learn from the best in martial arts and fitness training</p>
+        </div>
+    </section>
+
+    <!-- Coaches Section -->
+    <section class="container my-5">
+        <div class="row mb-5">
+            <div class="col-lg-12 text-center">
+                <h2 class="fw-bold mb-4">Our Dedicated Team of Professionals</h2>
+                <p class="lead">At DoBu Martial Arts, we pride ourselves on our team of highly qualified and experienced coaches who are passionate about helping you achieve your goals.</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <!-- Mauricio Gomez -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card coach-card shadow">
+                    <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" class="card-img-top coach-img" alt="Mauricio Gomez">
+                    <div class="card-body">
+                        <span class="badge badge-martial-arts text-white mb-2">Head Coach</span>
+                        <h5 class="card-title">Mauricio Gomez</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gym Owner & Head Martial Arts Coach</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item">Coaches in all martial arts</li>
+                            <li class="list-group-item">4th Dan Blackbelt Judo</li>
+                            <li class="list-group-item">3rd Dan Blackbelt Jiu-Jitsu</li>
+                            <li class="list-group-item">1st Dan Blackbelt Karate</li>
+                            <li class="list-group-item">Accredited Muay Thai Coach</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sarah Nova -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card coach-card shadow">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" class="card-img-top coach-img" alt="Sarah Nova">
+                    <div class="card-body">
+                        <span class="badge badge-martial-arts text-white mb-2">Martial Arts</span>
+                        <h5 class="card-title">Sarah Nova</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Assistant Martial Arts Coach</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item">5th Dan Blackbelt Karate</li>
+                            <li class="list-group-item">Specializes in traditional Karate techniques</li>
+                            <li class="list-group-item">Competition coach for national tournaments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guy Victory -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card coach-card shadow">
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" class="card-img-top coach-img" alt="Guy Victory">
+                    <div class="card-body">
+                        <span class="badge badge-martial-arts text-white mb-2">Martial Arts</span>
+                        <h5 class="card-title">Guy Victory</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Assistant Martial Arts Coach</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item">2nd Dan Blackbelt Jiu-Jitsu</li>
+                            <li class="list-group-item">1st Dan Blackbelt Judo</li>
+                            <li class="list-group-item">Specializes in ground techniques and submissions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Morris Davis -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card coach-card shadow">
+                    <img src="https://images.unsplash.com/photo-1628779238951-be2c9f2a59f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" class="card-img-top coach-img" alt="Morris Davis">
+                    <div class="card-body">
+                        <span class="badge badge-martial-arts text-white mb-2">Martial Arts</span>
+                        <h5 class="card-title">Morris Davis</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Assistant Martial Arts Coach</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item">Accredited Muay Thai Coach</li>
+                            <li class="list-group-item">3rd Dan Blackbelt Karate</li>
+                            <li class="list-group-item">Former professional fighter with 15 years experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Traci Santiago -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card coach-card shadow">
+                    <img src="https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" class="card-img-top coach-img" alt="Traci Santiago">
+                    <div class="card-body">
+                        <span class="badge badge-fitness text-white mb-2">Fitness</span>
+                        <h5 class="card-title">Traci Santiago</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Fitness Coach</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item">BSc in Sports Science</li>
+                            <li class="list-group-item">Qualified in health and nutrition</li>
+                            <li class="list-group-item">Specializes in devising strength and conditioning programs for combat athletes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Harpreet Kaur -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card coach-card shadow">
+                    <img src="https://images.unsplash.com/photo-1593164842264-854604db2260?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" class="card-img-top coach-img" alt="Harpreet Kaur">
+                    <div class="card-body">
+                        <span class="badge badge-fitness text-white mb-2">Fitness</span>
+                        <h5 class="card-title">Harpreet Kaur</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Fitness Coach</h6>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item">BSc in Physiotherapy</li>
+                            <li class="list-group-item">MSc in Sports Science</li>
+                            <li class="list-group-item">Specializes in injury prevention and rehabilitation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-dark text-white py-5 my-5">
+        <div class="container text-center">
+            <h2>Train With The Best</h2>
+            <p class="lead">Book a session with one of our expert coaches today!</p>
+            <a href="membership.html" class="btn btn-primary btn-lg mt-3">Join Now</a>
+        </div>
+    </section>
+
+    <div id="footer"></div>    
     
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("header").innerHTML = data);
+    </script>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("footer").innerHTML = data);
+    </script>
 </body>
 </html>
